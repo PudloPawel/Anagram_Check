@@ -1,12 +1,12 @@
 package com.example.anagram_check.service;
 
+import com.example.anagram_check.dto.AnagramsResponseDto;
 import com.example.anagram_check.dto.InformationDto;
 import com.example.anagram_check.dto.WordDto;
 
 public interface AnagramService {
 
-    InformationDto checkAnagram(String firstWord, String secondWord);
+    AnagramsResponseDto checkAnagram(WordDto words);
 
-    InformationDto checkAnagramDto(WordDto words);
 
 }
