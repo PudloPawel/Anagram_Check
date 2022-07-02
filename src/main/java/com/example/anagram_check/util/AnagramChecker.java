@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.util.Arrays;
 
 @NoArgsConstructor
-public class AnagramCheck {
+public class AnagramChecker {
 
     public AnagramsResponseDto checkWords(WordDto words){
 
